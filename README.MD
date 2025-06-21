@@ -278,27 +278,27 @@ The local storage architecture provides several security advantages:
 
 ### PDF Processing Errors
 
-**Issue:** Some PDFs fail to process
-**Solution:** Check file permissions and PDF encryption status
+* **Issue:** Some PDFs fail to process
+  * **Solution:** Check file permissions and PDF encryption status
 
-**Issue:** Extracted text contains formatting artifacts  
-**Solution:** Adjust `min_chunk_size` parameter to filter fragments
+* **Issue:** Extracted text contains formatting artifacts  
+  * **Solution:** Adjust `min_chunk_size` parameter to filter fragments
 
 ### Database Performance
 
-**Issue:** Slow query responses on large collections
-**Solution:** Implement collection partitioning or increase SSD storage
+* **Issue:** Slow query responses on large collections
+  * **Solution:** Implement collection partitioning or increase SSD storage
 
-**Issue:** High memory usage during processing
-**Solution:** Reduce `batch_size` parameter for available RAM
+* **Issue:** High memory usage during processing
+  * **Solution:** Reduce `batch_size` parameter for available RAM
 
 ### Embedding Model Selection
 
-**Issue:** Poor search relevance with default model
-**Solution:** Upgrade to `all-mpnet-base-v2` for better semantic understanding
+* **Issue:** Poor search relevance with default model
+  * **Solution:** Upgrade to `all-mpnet-base-v2` for better semantic understanding
 
-**Issue:** OpenAI API rate limits
-**Solution:** Switch to local models for unlimited processing
+* **Issue:** OpenAI API rate limits
+  * **Solution:** Switch to local models for unlimited processing
 
 ## License
 
